@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-// แก้ชื่อ package เป็น food_tracker_app2
+
 import 'package:food_tracker_app2/views/show_all_food_tracker_ui.dart'; 
 
 class SplashScreenUi extends StatefulWidget {
