@@ -8,7 +8,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
   await Supabase.initialize(
-    // เอา /rest/v1/ ออกให้แล้วนะครับ!
+
     url: 'https://eooaaugwkdzpjjdccczd.supabase.co', 
     anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVvb2FhdWd3a2R6cGpqZGNjY3pkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzY2NjE4MTYsImV4cCI6MjA5MjIzNzgxNn0.a90ktEJt5rbhO1UdsjDPZn_gEons9OHYGqvPXMX4fwQ', 
   );
